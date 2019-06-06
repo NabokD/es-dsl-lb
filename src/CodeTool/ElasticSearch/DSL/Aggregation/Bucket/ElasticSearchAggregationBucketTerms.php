@@ -115,7 +115,7 @@ class ElasticSearchAggregationBucketTerms implements ElasticSearchAggregationInt
     /**
      * @var ElasticSearchScript
      */
-    private $script;
+    private $script = '';
 
     public function field(string $field)
     {
